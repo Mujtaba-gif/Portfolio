@@ -1,0 +1,411 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ebebff;
+  margin: 0;
+  padding: 0;
+  width: 100vh;
+  height: 100vh;
+  background-color: white;
+}
+h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+header nav{
+    width: 100vh;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+nav .logo{
+    top: 4px;
+    left: 12px;
+    padding: 10px 12px 10px 12px;
+}
+nav .menu-button{
+    top: 4px;
+    margin-left: 200px;
+    padding: 8px;
+}
+.section1{
+    background-image: url("Assets/portfolio.jpeg");
+    height: 604px;
+    top: 92px;
+    padding: 114px 24px 114px 24px;
+    gap: 12px;
+}
+.intro{
+    width: 327px;
+    height: 150px;
+}
+.intro h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+.para1{
+    width: 327px;
+}
+.link1{
+    width: 327px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:#7F8CFF;
+    gap: 8px;
+}
+.social-icon{
+    padding-top: 10px;
+    width: 170.17px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-align{
+    width: Hug (375px)px;
+    height: Hug (2,788px)px;
+    top: 718px;
+    padding: 114px 24px 114px 24px;
+    gap: 88px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;    
+}
+.section-align section{
+    width: 327px;
+    height: Hug (552px)px;
+    padding: 16px 0px 0px 0px;
+    gap: 12px;
+    border-radius: 16px;
+    border: 1px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.section-align section img{
+    width: 295px;
+    height: 220px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+}
+.catalog-align{
+    width: Hug (295px)px;
+    height: Hug (288px)px;
+    gap: 12px;
+    opacity: 0px;
+}
+.catalog{
+    width: Hug (295px)px;
+    height: Hug (80px)px;
+    gap: 12px;
+    opacity: 0px;    
+}
+.catalog .heading{
+    width: 295px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color: #172B4D;
+}
+.catalog .ul-con{
+    width: Hug (236px)px;
+    height: Hug (32px)px;
+    gap: 12px;
+    opacity: 0px;
+}
+.catalog p{
+    width: Hug (55px)px;
+    height: Hug (32px)px;
+    padding: 8px 0px 8px 0px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #344563;    
+}
+.catalog li{
+    width: Hug (88px)px;
+    height: Hug (32px)px;
+    padding: 8px 0px 8px 0px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #7A869A;
+}
+.logs{
+    width: 214px;
+    height: 24px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.para2{
+    width: 295px;
+    height: 76px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+}
+.logs{
+    width: Hug (214px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+}
+.logs .log{
+    width: Hug (57px)px;
+    height: Hug (24px)px;
+    padding: 4px 12px 4px 12px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background: #EBEBFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left; 
+    color: #6070FF;
+}
+.button1{
+    width: 295px;
+    height: 72px;
+    padding: 12px 169px 12px 0px;
+    gap: 0px;
+    opacity: 0px;    
+}
+.button1 button{
+    width: Hug (126px)px;
+    height: Hug (48px)px;
+    top: 12px;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: 1px solid #6070FF;
+    background: #FFFFFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;    
+    color: #396DF2;
+}
+.about-align{
+    width: Hug (375px)px;
+    height: Hug (1,062.15px)px;
+    top: 3506px;
+    padding: 114px 24px 114px 24px;
+    gap: 24px;
+    opacity: 0px;
+}
+.about-align .section6{
+    width: Hug (327px)px;
+    height: Hug (346px)px;
+    gap: 12px;
+    opacity: 0px;
+}
+.about-align .section6 .heading{
+    width: 327px;
+    height: 35px;
+    gap: 0px;
+    opacity: 0px;
+}
+.about-align .section6 .heading h1{
+   font-family: Poppins;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 52px;
+   text-align: left;
+   color: #172B4D;
+}
+.about-align .section6 .para3{
+    width: 327px;
+    height: 147px;
+    gap: 0px;
+    opacity: 0px;
+}
+.about-align .section6 .para3 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+}
+.about-align .section6 .link-align{
+    width: Hug (200px)px;
+    height: Hug (80px)px;
+    gap: 16px;
+    opacity: 0px;
+}
+.link-align .link1{
+    width: Hug (117px)px;
+    height: Hug (24px)px;
+    gap: 8px;
+    opacity: 0px;
+}
+.link-align .link1 h3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #7F8CFF;
+}
+.link-align .social-icon{
+    width: Hug (200px)px;
+    height: Hug (40px)px;
+    gap: 0px;
+    opacity: 0px;
+}
+.about-align .section6 button{
+    width: Hug (162px)px;
+    height: Hug (48px)px;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: 1px solid #6070FF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #396DF2;
+}
+
+.section9{
+    background-image: url("Assets/Contact\ me.png");
+    width: 375px;
+    height: 779px;
+    top: 5410px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.section9 .heading{
+    height: 56px;
+    top: 4734px;
+    gap: 0px;
+    opacity: 0px;
+}
+.section9 .heading h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.section9 .para4{
+    width: 327px;
+    height: 137px;
+    top: 4802px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+}
+.section9 .para4 p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #EBEBFF;
+}
+.section9 .contact-form{
+    padding: 10px;
+}
+.section9 .contact-form input{
+    width: 327px;
+    height: 48px;
+    top: 4991px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #172B4D;
+}
+.section9 .contact-form textarea{
+    width: 327px;
+    height: 170px;
+    top: 5125px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #B3BAC5;
+}
+.section9 .buttonInTouch button{
+    width: Hug (142px)px;
+    height: Hug (48px)px;
+    top: 5317px;
+    left: 24px;
+    padding: 12px 16px 12px 16px;
+    gap: 0px;
+    border-radius: 8px;
+    border: none;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #6070FF;
+}
