@@ -1,7 +1,7 @@
 // Get elements
 const menuButton = document.querySelector('.menu-button');
 const mobileMenu = document.querySelector('.mobile-menu');
-const closeMenu = document.querySelector('.close-menu');
+const closeMenu = document.getElementById('close-menu'); // Updated selector to match HTML id
 
 // Function to open the mobile menu
 function openMenu() {
@@ -17,8 +17,17 @@ function closeMenuFunction() {
 menuButton.addEventListener('click', openMenu); // Open menu on hamburger button click
 closeMenu.addEventListener('click', closeMenuFunction); // Close menu on close button click
 
-// Close the mobile menu when an option is clicked
-const menuOptions = mobileMenu.querySelectorAll('li'); // Select all menu options
+// Scroll to section and close the mobile menu when a menu item is clicked
+const menuOptions = mobileMenu.querySelectorAll('.menu-item'); // Select all menu options
+
 menuOptions.forEach(option => {
-    option.addEventListener('click', closeMenuFunction); // Close menu on option click
+    option.addEventListener('click', () => {
+        const targetId = option.getAttribute('data-target'); // Get target section id
+        const targetSection = document.getElementById(targetId); // Find the target section
+
+        if (targetSection) {
+            targetSection.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to section
+            closeMenuFunction(); // Close the mobile menu
+        }
+    });
 });

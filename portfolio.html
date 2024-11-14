@@ -8,17 +8,30 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="portfolio.html" class="logo">
-                <img src="" alt="Logo">
-            </a>
+        <nav >
+            
+                <a href="portfolio.html" class="logo">
+                    <img src="Assets/My Logo.png" alt="Logo">
+                </a>
+            
             <div class="menu-button">
                 <img src="Assets/Normal Button/Tertiary/Enabled.png" alt="M">
             </div>
         </nav>
+       
     </header>
+    <div class="mobile-menu">
+        <ul>
+            <li class="menu-item" data-target="section1">Home</li>
+            <li class="menu-item" data-target="section2">Portfolio</li>
+            <li class="menu-item" data-target="section6">About me</li>
+            <li class="menu-item" data-target="section9">Contact</li>
+        </ul>
+        <button id="close-menu">X</button>
+    </div>
+    
     <main>
-        <section class="section1">
+        <section id="section1" class="section1">
             <div class="intro">
                 <h1>I'm Mujtaba. Glad to see you!</h1>
             </div>
@@ -37,7 +50,7 @@
             </div>
         </section>
         <div class="section-align">
-            <section class="section2">
+            <section id="section2" class="section2">
                 <div class="banner banner1">
                     <img src="Assets/Snapshoot Portfolio.png" alt="">
                 </div>
@@ -63,7 +76,7 @@
                     <button>See project</button>
                 </div>
             </section>
-            <section class="section3">
+            <section id="section3" class="section3">
                 <div class="banner banner1">
                     <img src="Assets/Snapshoot Portfolio2.png" alt="">
                 </div>
@@ -89,7 +102,7 @@
                     <button>See project</button>
                 </div>
             </section>
-            <section class="section4">
+            <section id="section4" class="section4">
                 <div class="banner banner1">
                     <img src="Assets/Snapshoot Portfolio3.png" alt="">
                 </div>
@@ -142,7 +155,7 @@
                 </div>
             </section>    
         </div>
-        <section class="section6">
+        <section id="section6" class="section6">
             <div class="heading">
                 <h1>About Myself</h1>
             </div>
@@ -163,7 +176,7 @@
                 <button>Get my resume</button>
             </div>
         </section>
-        <section class="section6">
+        <section id="section9" class="section9">
             <div class="heading">
                 <h1>Contact me</h1>
             </div>
@@ -172,12 +185,16 @@
             </div>
             <div class="contact-form">
                 <form action="">
-                    <input name="" id="" placeholder="Enter Name...">
-                    <input type="email" name="" id="" placeholder="Enter Email...">
+                    <input class="form-text" name="" id="" placeholder="Enter Name...">
+                    <input class="form-text" type="email" name="" id="" placeholder="Enter Email...">
                     <textarea name="" id="" placeholder="Write your message here..."></textarea>
                 </form>
             </div>
+            <div class="buttonInTouch">
+                <button>Get In Touch</button>
+            </div>    
         </section>
     </main>
+    <script src="portfolio.js"></script> 
 </body>
 </html>

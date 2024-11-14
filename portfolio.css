@@ -29,17 +29,58 @@ header nav{
     display: flex;
     flex-direction: row;
     background-color: white;
+    position: fixed;
 }
 nav .logo{
     top: 4px;
     left: 12px;
-    padding: 10px 12px 10px 12px;
+    padding: 10px 16px 10px 12px;
 }
 nav .menu-button{
     top: 4px;
     margin-left: 200px;
-    padding: 8px;
+    padding: 4px;
 }
+.menu-button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.mobile-menu {
+    display: none; /* Initially hide the mobile menu */
+    position: fixed; /* Position it fixed to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent background */
+    z-index: 1000; /* Ensure it's on top */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.mobile-menu.active {
+    display: flex; /* Show menu when active */
+}
+
+.mobile-menu ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.mobile-menu li {
+    margin: 20px 0; /* Space between menu items */
+}
+
+.close-menu {
+    position: absolute; /* Position the close button */
+    top: 20px; /* Adjust as necessary */
+    right: 20px; /* Adjust as necessary */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 24px; /* Adjust size as necessary */
+}
+
 .section1{
     background-image: url("Assets/portfolio.jpeg");
     height: 604px;
@@ -389,6 +430,10 @@ nav .menu-button{
     line-height: 24px;
     text-align: left;
     color: #B3BAC5;
+    margin: 5px;
+}
+.form-text{
+    margin: 4px;
 }
 .section9 .buttonInTouch button{
     width: Hug (142px)px;
